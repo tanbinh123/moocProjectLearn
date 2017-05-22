@@ -161,4 +161,13 @@
   <select id="selectCartProductCount" resultType="int" parameterType="int">
     SELECT NULLIF(sum(quantity),0) as count FROM mmall_cart where user_id = #{userId}
   </select>
+  
+  <select id="selectCheckedCartByUserId" resultType="BaseResultMap" parameterType="int">
+    SELECT
+    <include refid="Base_Column_List" />
+    FROM
+    mmall_cart
+    WHERE user_id = #{userId}
+    and  checked = 1
+  </select>
 </mapper>
