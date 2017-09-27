@@ -1,25 +1,2 @@
-*.class
-
-*.war
-*.ear
-
-*.orig
-
-target/
-.settings/
-.project
-.classpath
-
-.idea/
-/idea/
-*.ipr
-*.iml
-*.iws
-
-*.log
-*.cache
-*.diff
-*.tmp
-
-.DS_Store
-Thumbs.db
+慕课网实战项目（Java 从零打造企业级电商实战 - 服务端）的学习
+http://coding.imooc.com/class/96.html
